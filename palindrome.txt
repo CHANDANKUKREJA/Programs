@@ -1,0 +1,16 @@
+palindrome
+
+
+StringBuffer org= new StringBuffer(name);
+StringBuffer reverse= new StringBuffer(name);
+reverse.reverse();
+syos("reverse"+org);
+syos("reverse"+reverse);
+if(org.toString().equals(reverse.toString()));{
+syos(palandrome);
+}
+else{
+syos(not palndrome);
+}
+}
+}
